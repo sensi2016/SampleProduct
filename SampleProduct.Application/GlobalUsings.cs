@@ -1,0 +1,11 @@
+﻿global using SampleProduct.Application.Models;
+global using MediatR;
+global using SampleProduct.Application.Common.Interfaces;
+global using SampleProduct.Domain.Entities;
+global using FluentValidation;
+global using SampleProduct.Application.Products.Commands.ProductCustomer;
+global using AutoMapper;
+global using SampleProduct.Application.Common.Models;
+global using Microsoft.EntityFrameworkCore;
+global using SampleProduct.Application.Common.Exceptions;
+global using SampleProduct.Application.Common.Behaviours;
